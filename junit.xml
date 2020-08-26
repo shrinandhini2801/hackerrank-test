@@ -1,0 +1,87 @@
+<testsuites name="jest tests" tests="8" failures="7" time="0.876">
+  <testsuite name="Overall application tests" errors="0" failures="7" skipped="0" timestamp="2020-08-22T03:34:25" time="0.876" tests="8">
+    <testcase classname="Overall application tests Should display the complete list of students with full name in the dropdown" name="Overall application tests Should display the complete list of students with full name in the dropdown" time="0.051">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  16
+Received:
+  0
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:68:28)
+    at Object.asyncFn (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+    <testcase classname="Overall application tests Should call getStudents only once" name="Overall application tests Should call getStudents only once" time="0.016">
+    </testcase>
+    <testcase classname="Selecting a student tests should display the selected student&apos;s name, student number, email, and registration date" name="Selecting a student tests should display the selected student&apos;s name, student number, email, and registration date" time="0.026">
+      <failure>TypeError: Cannot read property &apos;value&apos; of undefined
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:115:42)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+    <testcase classname="Selecting a student tests should display the selected student&apos;s courses with the name, instructor, and credits - exact format" name="Selecting a student tests should display the selected student&apos;s courses with the name, instructor, and credits - exact format" time="0.003">
+      <failure>TypeError: Cannot read property &apos;value&apos; of undefined
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:157:42)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+    <testcase classname="Selecting a student tests should display the selected student&apos;s courses in alphabetical order by course name" name="Selecting a student tests should display the selected student&apos;s courses in alphabetical order by course name" time="0.003">
+      <failure>TypeError: Cannot read property &apos;value&apos; of undefined
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:210:42)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+    <testcase classname="Selecting a student tests should call getCoursesForStudent only once" name="Selecting a student tests should call getCoursesForStudent only once" time="0.005">
+      <failure>TypeError: Cannot read property &apos;value&apos; of undefined
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:235:42)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+    <testcase classname="No selection tests should not display student info when no student is selected" name="No selection tests should not display student info when no student is selected" time="0.004">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  15
+Received:
+  0
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:273:28)
+    at Object.asyncFn (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+    <testcase classname="No selection tests should not display student courses list when no student is selected" name="No selection tests should not display student courses list when no student is selected" time="0.002">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  11
+Received:
+  0
+    at Object.&lt;anonymous&gt; (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/src/App.test.js:281:28)
+    at Object.asyncFn (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/vikky/Documents/SHRI_Official/hackerrank/7121b7d4-5519-4ef9-b4bb-f9c23a6098e2/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
